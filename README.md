@@ -1,36 +1,31 @@
-# TRACE Analysis Tool
+# TRACE Analysis Tool - Advanced Version
 
-## Introduction
-TRACE is an analysis tool used to trace and track program execution.
-It helps in understanding how a process runs step by step.
+This is an advanced version of TRACE tool with GUI and CLI support.
 
-## What TRACE Does
-- Records internal execution steps
-- Generates trace logs
-- Helps in debugging and analysis
+## Features
+- Trace execution of functions
+- Generate logs, bar graphs, and Excel reports
+- CLI and GUI versions available
+- Example program included
 
-## Output of TRACE
-- Trace logs
-- Execution sequence
-- Error detection
+## Installation
+1. Clone the repo
+2. Create a virtual environment and activate it
+3. Install dependencies:
+   pip install -r requirements.txt
 
-## Example
-Start Program
-Load Data
-Process Data
-Error at Step 3
-Program End
+## Usage
+### CLI:
+1. Run your program that uses the tracer (examples/sample_program.py)
+2. Run analysis:
+   python main.py
 
-## Backend Logic
-- Event-based tracing
-- Instrumentation
-- Log analysis
-- Control-flow tracking
+### GUI:
+1. Run GUI:
+   python gui.py
+2. Select your trace log file and click Analyze
 
-## Workflow
-1. Select program to trace
-2. Enable tracing
-3. Run program
-4. Generate logs
-5. Analyze results
-
+## Example Output
+- `results/trace_log.txt` - log file
+- `results/execution_summary.png` - execution graph
+- `results/execution_report.xlsx` - summary report
